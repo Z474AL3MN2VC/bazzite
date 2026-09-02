@@ -55,7 +55,6 @@ Bazzite is built from [ublue-os/main](https://github.com/ublue-os/main) using [F
 - [xone](https://github.com/medusalix/xone) driver for Xbox controllers.
 - Full support for [DisplayLink](https://www.synaptics.com/products/displaylink-graphics).
 - [vkBasalt](https://github.com/DadSchoorse/vkBasalt), [MangoHud](https://github.com/flightlessmango/Mangohud), and [OBS VkCapture](https://github.com/nowrep/obs-vkcapture) installed and available by default.
-- [ROM Properties Page shell extension](https://github.com/GerbilSoft/rom-properties) included.
 - [Distrobox](https://github.com/89luca89/distrobox) preinstalled.
 - Automated `bees` service for reducing the disk space used by wine prefix contents.
 - Support for HDMI CEC.

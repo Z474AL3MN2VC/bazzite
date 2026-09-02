@@ -389,8 +389,6 @@ RUN --mount=type=cache,dst=/var/cache \
             gnome-shell-extension-gsconnect \
             gnome-search-yafti \
             gnome-rounded-blur \
-            rom-properties-gtk4 \
-            rom-properties-localsearch3 \
             ibus-mozc \
             openssh-askpass \
             firewall-config && \
@@ -412,8 +410,6 @@ RUN --mount=type=cache,dst=/var/cache \
         /ctx/build-gnome-extensions && \
         systemctl enable dconf-update.service \
     ; fi && \
-    dnf5 -y install \
-        rom-properties-utils && \
     /ctx/cleanup
 
 # ublue-os-media-automount-udev, mount non-removable device partitions automatically under /media/media-automount/
