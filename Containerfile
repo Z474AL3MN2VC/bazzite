@@ -279,12 +279,21 @@ RUN --mount=type=cache,dst=/var/cache \
         lsb_release \
         uupd \
         ds-inhibit \
-        waydroid \
         cage \
         wlr-randr \
         gmodpatchtool \
         bazzite-portal \
         kernel-tools \
+        bat \
+        fd-find \
+        lsd \
+        opencode \
+        ripgrep \
+        yazi \
+        yt-dlp \
+        zed-0 \
+        zoxide \
+        https://opencode.ai/download/stable/linux-x64-rpm \
         ls-iommu && \
     dnf5 -y swap \
         --repo terra \
@@ -389,6 +398,7 @@ RUN --mount=type=cache,dst=/var/cache \
             openssh-askpass \
             firewall-config && \
         dnf5 -y remove \
+            malcontent \
             gnome-software \
             gnome-classic-session \
             gnome-tour \
