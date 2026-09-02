@@ -291,9 +291,7 @@ RUN --mount=type=cache,dst=/var/cache \
         ripgrep \
         yazi \
         yt-dlp \
-        zed-0 \
         zoxide \
-        https://opencode.ai/download/stable/linux-x64-rpm \
         ls-iommu && \
     dnf5 -y swap \
         --repo terra \
