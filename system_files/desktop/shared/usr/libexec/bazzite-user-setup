@@ -148,9 +148,6 @@ else
   fi
   mkdir -p "$TEMPLATES_DIR"
 
-  if [[ ! -f "$TEMPLATES_DIR/vkBasalt.conf" && -f "/etc/vkBasalt.conf" ]]; then
-    ln -s "/etc/vkBasalt.conf" "$TEMPLATES_DIR/vkBasalt.conf"
-  fi
   if [[ ! -f "$TEMPLATES_DIR/dxvk.conf" && -f "/etc/dxvk-example.conf" ]]; then
     ln -s "/etc/dxvk-example.conf" "$TEMPLATES_DIR/dxvk.conf"
   fi
@@ -227,9 +224,9 @@ wp_audio_sinks() {
             /Sources/ { S=0; }
             /Sink endpoints/ { S=0; }
             /^Video/ { A=0; }
-            { if (A==1 && S==1 && / [[:digit:]]*\./) 
+            { if (A==1 && S==1 && / [[:digit:]]*\./)
                  { print; } }' |
-        sed 's/^.* \([[:digit:]]*\)\. \(.*\) \[.*$/\1\t\2/'   
+        sed 's/^.* \([[:digit:]]*\)\. \(.*\) \[.*$/\1\t\2/'
 }
 
 if [[ ":83E1:ROG Ally RC71L:" =~ ":$SYS_ID:" ]]; then

@@ -64,7 +64,6 @@ flatpak override \
 # Allow MangoHUD config for Flatpaks
 flatpak override \
   --filesystem=xdg-config/MangoHud:create \
-  --filesystem=xdg-config/vkBasalt:create
 
 # Fix permissions for XIV Launcher
 flatpak override \

@@ -343,12 +343,8 @@ RUN --mount=type=cache,dst=/var/cache \
         gobject-introspection \
         libFAudio.x86_64 \
         libFAudio.i686 \
-        vkBasalt.x86_64 \
-        vkBasalt.i686 \
         mangohud.x86_64 \
         mangohud.i686 \
-        obs-studio-plugin-vkcapture-hook-libs.x86_64 \
-        obs-studio-plugin-vkcapture-hook-libs.i686 \
         openxr && \
     dnf5 -y --enable-repo=terra-mesa --enable-repo=terra --setopt=install_weak_deps=False install \
         steam \
@@ -393,6 +389,7 @@ RUN --mount=type=cache,dst=/var/cache \
             openssh-askpass \
             firewall-config && \
         dnf5 -y remove \
+            malcontent \
             gnome-software \
             gnome-classic-session \
             gnome-tour \
