@@ -393,7 +393,6 @@ RUN --mount=type=cache,dst=/var/cache \
             openssh-askpass \
             firewall-config && \
         dnf5 -y remove \
-            malcontent \
             gnome-software \
             gnome-classic-session \
             gnome-tour \
