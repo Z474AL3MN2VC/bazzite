@@ -286,6 +286,7 @@ RUN --mount=type=cache,dst=/var/cache \
         kernel-tools \
         bat \
         fd-find \
+        ghostty \
         lsd \
         opencode \
         ripgrep \
