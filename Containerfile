@@ -284,6 +284,7 @@ RUN --mount=type=cache,dst=/var/cache \
         bazzite-portal \
         kernel-tools \
         bat \
+        brave-origin \
         fd-find \
         ghostty \
         lsd \
