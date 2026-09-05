@@ -70,7 +70,6 @@ Bazzite is gebouwd van [ublue-os/main](https://github.com/ublue-os/main) en [ubl
 - Gebruikt standaard [Google's BBR TCP congestiecontrole](https://github.com/google/bbr).
 - [Input Remapper](https://github.com/sezanzeb/input-remapper) geïnstaleerd en in gebruik. <sub><sup>(Beschikbaar maar is uitgeschakeld in de Deck variant, kan ingeschakeld worden met `ujust _restore-input-remapper`)</sup></sub>
 - Bazzite Portal is een makkelijke manier om applicaties en aanpassingen te installeren, zoals [LACT](https://github.com/ilya-zlobintsev/LACT) en [GreenWithEnvy](https://gitlab.com/leinardi/gwe).
-- [Waydroid](https://waydro.id/) geïnstaleerd om Android apps tend to gebruiken. Stel het in met de [quick guide](https://universal-blue.discourse.group/docs?topic=32).
 - Applicaties beheren met [Flatseal](https://github.com/tchx84/Flatseal), [Warehouse](https://github.com/flattool/warehouse) en [Gear Lever](https://github.com/mijorus/gearlever).
 - [OpenRGB](https://gitlab.com/CalcProgrammer1/OpenRGB) i2c-piix4 and i2c-nct6775 drivers for controlling RGB on certain motherboards.
 - [OpenRazer](https://openrazer.github.io) stuurprogrammas ingebouwd. Selecteer OpenRazer in de Bazzite Portal of gebruik `ujust install-openrazer` in een terminal.
@@ -234,7 +233,6 @@ Lees de [FAQ](https://universal-blue.discourse.group/docs?topic=33) om te zien w
 ![KDE Vapor Thema](/repo_content/desktop1.png?raw=true "KDE Vapor Theme")
 ![KDE VGUI2 Thema](/repo_content/desktop2.png?raw=true "KDE VGUI2 Theme")
 ![Steam Gaming Mode](/repo_content/gamemode.png?raw=true "Steam Gaming Mode")
-![Waydroid](/repo_content/waydroid.png?raw=true "Waydroid")
 ![Distrobox Terminals](/repo_content/distrobox.png?raw=true "Distrobox Terminals")
 ![GNOME](/repo_content/gnome1.png?raw=true "GNOME")
 ![GNOME](/repo_content/gnome2.png?raw=true "GNOME")

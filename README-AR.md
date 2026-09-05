@@ -68,7 +68,6 @@ Bazzite مبنية من [ublue-os/main](https://github.com/ublue-os/main) و[ubl
 - استخدام [تحكم الازدحام TCP BBR من Google](https://github.com/google/bbr) افتراضيا.
 - [Input Remapper](https://github.com/sezanzeb/input-remapper) مثبت وممكن. <sub><sup>(متاح لكنه معطل افتراضيا على إصدار Deck ويمكن تمكينه عبر `ujust restore-input-remapper`)</sup></sub>
 - يوفر Bazzite Portal طريقة سهلة لتثبيت العديد من التطبيقات والتعديلات بما في ذلك تثبيت [LACT](https://github.com/ilya-zlobintsev/LACT).
-- [Waydroid](https://waydro.id/) مثبت مسبقا لتشغيل تطبيقات أندرويد. قم بإعداده عبر هذا [الدليل السريع](https://docs.bazzite.gg/Installing_and_Managing_Software/Waydroid_Setup_Guide/).
 - إدارة التطبيقات باستخدام [Flatseal](https://github.com/tchx84/Flatseal) [Warehouse](https://github.com/flattool/warehouse) و[Gear Lever](https://github.com/mijorus/gearlever).
 - تعريفات [OpenRGB](https://gitlab.com/CalcProgrammer1/OpenRGB) i2c-piix4 وi2c-nct6775 للتحكم في RGB على بعض اللوحات الأم.
 - تعريفات [OpenRazer](https://openrazer.github.io) مدمجة اختر OpenRazer في Bazzite Portal أو شغل `ujust install-openrazer` في الطرفية للبدء.
@@ -223,7 +222,6 @@ rpm-ostree rebase ostree-unverified-registry:ghcr.io/ublue-os/bazzite-deck-gnome
 ![KDE Vapor Theme](/repo_content/desktop1.png?raw=true "ثيم KDE Vapor")
 ![KDE VGUI2 Theme](/repo_content/desktop2.png?raw=true "ثيم KDE VGUI2")
 ![Steam Gaming Mode](/repo_content/gamemode.png?raw=true "وضع اللعب في Steam")
-![Waydroid](/repo_content/waydroid.png?raw=true "Waydroid")
 ![Distrobox Terminals](/repo_content/distrobox.png?raw=true "طرفيات Distrobox")
 ![GNOME](/repo_content/gnome1.png?raw=true "GNOME")
 ![GNOME](/repo_content/gnome2.png?raw=true "GNOME")

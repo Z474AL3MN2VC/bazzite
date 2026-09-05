@@ -183,7 +183,6 @@ qrencode -o "$SECUREBOOT_DOC_URL_QR" "$SECUREBOOT_DOC_URL"
     set +e
     for s in \
         rpm-ostree-countme.service \
-        tailscaled.service \
         bazzite-hardware-setup.service \
         ublue-hardware-setup.service \
         bootloader-update.service \
@@ -268,7 +267,7 @@ fi
 rm -vf /etc/skel/.config/autostart/steam*.desktop
 
 # Remove packages that shouldn't be used in a live session
-dnf -yq remove steam lutris bazaar waydroid || :
+dnf -yq remove steam lutris bazaar || :
 
 # Don't check for verified image
 rm -vf /etc/profile.d/verify_motd.sh

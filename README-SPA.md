@@ -71,7 +71,6 @@ Bazzite es creado con [ublue-os/main](https://github.com/ublue-os/main) y [ublue
 - Uso del [control de congestión TCP BBR hecho por Google](https://github.com/google/bbr) por defecto.
 - [Input Remapper](https://github.com/sezanzeb/input-remapper) pre-instalado y habilitado. <sub><sup>(Disponible pero desactivado por defecto en la variante Deck, puede ser habilitado ejecutando el siguiente comando en una terminal: `ujust _restore-input-remapper`)</sup></sub>
 - El portal de Bazzite (Bazzite Portal) provee una manera fácil de instalar un sin fin de aplicaciones y ajustes, incluyendo la instalación de [LACT](https://github.com/ilya-zlobintsev/LACT) (para mejor controlar tu GPU de AMD) y [GreenWithEnvy](https://gitlab.com/leinardi/gwe) (para mejor controlar tu GPU de NVIDIA).
-- [Waydroid](https://waydro.id/) pre-instalado para correr aplicaciones de Android. Para configurarlo, usa esta [guía rápida (en inglés)](https://universal-blue.discourse.group/docs?topic=32).
 - Administra tus aplicaciones usando [Flatseal](https://github.com/tchx84/Flatseal), [Warehouse](https://github.com/flattool/warehouse), y [Gear Lever](https://github.com/mijorus/gearlever).
 - Drivers i2c-piix4 y i2c-nct6775 de [OpenRGB](https://gitlab.com/CalcProgrammer1/OpenRGB) incluidos para controlar las luces RGB de ciertas tarjetas madre (motherboards).
 - Drivers de [OpenRazer](https://openrazer.github.io) incorporados, Sólo selecciona OpenRazer en el Bazzite Portal o ejecuta el comando `ujust install-openrazer` en una terminal para empezar a usarlos.
@@ -237,7 +236,6 @@ Lee nuestras [preguntas frecuentes](https://universal-blue.discourse.group/docs?
 
 ![Steam Gaming Mode](/repo_content/gamemode.png?raw=true "Steam Gaming Mode")
 
-![Waydroid](/repo_content/waydroid.png?raw=true "Waydroid")
 
 ![Distrobox Terminals](/repo_content/distrobox.png?raw=true "Distrobox Terminals")
 

@@ -67,7 +67,6 @@ Bazzite собирается на основе [ublue-os/main](https://github.co
 - По умолчанию используется [BBR TCP от Google](https://github.com/google/bbr).
 - [Input Remapper](https://github.com/sezanzeb/input-remapper) предустановлен и включен. *(Доступен, но отключен по умолчанию в варианте Deck; можно включить командой `ujust restore-input-remapper`)*
 - [Bazzite Portal](https://github.com/ublue-os/yafti-gtk) позволяет легко устанавливать множество приложений и настроек, включая [LACT](https://github.com/ilya-zlobintsev/LACT) и IDE через Brew. В нем также есть удобные кнопки для обновления, перехода на другой образ и даже сброса системного образа к настройкам по умолчанию.
-- [Waydroid](https://waydro.id/) предустановлен для запуска Android-приложений. Настройка описана в [кратком руководстве](https://docs.bazzite.gg/Installing_and_Managing_Software/Waydroid_Setup_Guide/).
 - Управляйте приложениями с помощью [Flatseal](https://github.com/tchx84/Flatseal), [Warehouse](https://github.com/flattool/warehouse) и [Gear Lever](https://github.com/mijorus/gearlever).
 - [OpenRGB](https://gitlab.com/CalcProgrammer1/OpenRGB) с драйверами i2c-piix4 и i2c-nct6775 для управления RGB на некоторых материнских платах.
 - [OpenRazer](https://openrazer.github.io) встроен, выберите OpenRazer в Bazzite Portal или выполните `ujust install-openrazer` в терминале, чтобы начать использовать его.
@@ -222,7 +221,6 @@ Bazzite поставляется с самым свежим ядром Linux и 
 ![KDE Vapor Theme](/repo_content/desktop1.png?raw=true "Тема KDE Vapor")
 ![KDE VGUI2 Theme](/repo_content/desktop2.png?raw=true "Тема KDE VGUI2")
 ![Steam Gaming Mode](/repo_content/gamemode.png?raw=true "Игровой режим Steam")
-![Waydroid](/repo_content/waydroid.png?raw=true "Waydroid")
 ![Distrobox Terminals](/repo_content/distrobox.png?raw=true "Терминалы Distrobox")
 ![GNOME](/repo_content/gnome1.png?raw=true "GNOME")
 ![GNOME](/repo_content/gnome2.png?raw=true "GNOME")

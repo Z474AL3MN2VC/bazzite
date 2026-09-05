@@ -480,18 +480,6 @@ screens:
           - id: "disable"
             label: "Disable HDMI-CEC Standby on System Sleep"
             script: "ujust cec-sleep disable"
-      - id: "tailscale"
-        title: "Enable Tailscale"
-        description: "Toggle the Tailscale service for mesh VPN support."
-        default: false
-        status_script: "ujust tailscale status"
-        options:
-          - id: "enable"
-            label: "Enable Tailscale"
-            script: "ujust tailscale enable"
-          - id: "disable"
-            label: "Disable Tailscale"
-            script: "ujust tailscale disable"
       - id: "cockpit"
         title: "Enable Cockpit"
         description: "Toggle the Cockpit web interface service, for centralized system management from a browser."

@@ -68,7 +68,6 @@ Bazzite est construit à partir de [ublue-os/main](https://github.com/ublue-os/m
 - Utilise par défaut [contrôle de congestion Google BBR TCP](https://github.com/google/bbr).
 - [Input Remapper](https://github.com/sezanzeb/input-remapper) préinstallé et activé par défaut. <sub><sup>(Disponible mais désactivé par défaut sur la variante SteamDeck, peut être activé avec `ujust restore-input-remapper`)</sup></sub>
 - [Bazzite Portal](https://github.com/ublue-os/yafti-gtk) offre un moyen facile d'installer de nombreuses applications et ajustements, y compris l'installation de [LACT](https://github.com/ilya-zlobintsev/LACT) et des IDEs via Brew. Il fournit également des boutons pratiques pour mettre à jour, rebaser et même réinitialiser l'image système aux paramètres par défaut.
-- [Waydroid](https://waydro.id/) préinstallé pour exécuter des applications Android. Configurable avec ce [guide rapide](https://docs.bazzite.gg/Installing_and_Managing_Software/Waydroid_Setup_Guide/).
 - Gestion des applications avec [Flatseal](https://github.com/tchx84/Flatseal), [Warehouse](https://github.com/flattool/warehouse) et [Gear Lever](https://github.com/mijorus/gearlever).
 - Pilotes [OpenRGB](https://gitlab.com/CalcProgrammer1/OpenRGB) i2c-piix4 et i2c-nct6775 pour contrôler le RGB sur certaines cartes mères.
 - Pilotes [OpenRazer](https://openrazer.github.io) intégrés. Sélectionnez OpenRazer dans Bazzite Portal ou exécutez `ujust install-openrazer` dans un terminal pour commencer à l'utiliser.
@@ -221,7 +220,6 @@ Consultez la [FAQ](https://docs.bazzite.gg/General/FAQ/) pour plus de détails s
 ![KDE Vapor Theme](/repo_content/desktop1.png?raw=true "KDE Vapor Theme")
 ![KDE VGUI2 Theme](/repo_content/desktop2.png?raw=true "KDE VGUI2 Theme")
 ![Steam Gaming Mode](/repo_content/gamemode.png?raw=true "Steam Gaming Mode")
-![Waydroid](/repo_content/waydroid.png?raw=true "Waydroid")
 ![Distrobox Terminals](/repo_content/distrobox.png?raw=true "Distrobox Terminals")
 ![GNOME](/repo_content/gnome1.png?raw=true "GNOME")
 ![GNOME](/repo_content/gnome2.png?raw=true "GNOME")

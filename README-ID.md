@@ -61,7 +61,6 @@ Bazzite dibentuk dari [ublue-os/main](https://github.com/ublue-os/main) and [ubl
 - Pra-install [Input Remapper](https://github.com/sezanzeb/input-remapper) dan diaktifkan secara bawaan. <sub><sup>(Dinonaktifkan secara bawaan di varian Deck tapi tersedia dan dapat diaktifkan dengan `ujust _restore-input-remapper`)</sup></sub>
 - Portal Bazzite menyediakan cara mudah untuk menginstall berbagai macam aplikasi dan oprekan, termasuk menginstall [LACT](https://github.com/ilya-zlobintsev/LACT) dan [GreenWithEnvy](https://gitlab.com/leinardi/gwe).
 - Manajemen paket [Brew](https://brew.sh/) tersedia secara optional dan dapat diinstall dengan Portal Bazzite.
-- Pra-install [Waydroid](https://waydro.id/) untuk menjalankan aplikasi Android. Dapat diatur dengan mengikuti [panduan cepat](https://universal-blue.discourse.group/docs?topic=32).
 - Mengatur aplikasi dengan [Flatseal](https://github.com/tchx84/Flatseal), [Warehouse](https://github.com/flattool/warehouse), dan [Gear Lever](https://github.com/mijorus/gearlever).
 - [OpenRGB](https://gitlab.com/CalcProgrammer1/OpenRGB) driver i2c-piix4 dan i2c-nct6775 untuk mengatur RGB di beberapa jenis motherboard.
 - Disediakan secara bawaan driver [OpenRazer](https://openrazer.github.io), Pilih OpenRazer di portal bazzite atau jalankan perintah `ujust install-openrazer` diterminal untuk menggunakannya.
@@ -214,7 +213,6 @@ Baca [FAQ](https://universal-blue.discourse.group/docs?topic=33) untuk tahu apa 
 ![KDE Vapor Theme](/repo_content/desktop1.png?raw=true "KDE Vapor Theme")
 ![KDE VGUI2 Theme](/repo_content/desktop2.png?raw=true "KDE VGUI2 Theme")
 ![Steam Gaming Mode](/repo_content/gamemode.png?raw=true "Steam Gaming Mode")
-![Waydroid](/repo_content/waydroid.png?raw=true "Waydroid")
 ![Distrobox Terminals](/repo_content/distrobox.png?raw=true "Distrobox Terminals")
 ![GNOME](/repo_content/gnome1.png?raw=true "GNOME")
 ![GNOME](/repo_content/gnome2.png?raw=true "GNOME")

@@ -70,7 +70,6 @@ Bazzite是使用[Fedora](https://fedoraproject.org/)技术基于[ublue-os/main](
 - 默认启用 [Google's BBR TCP congestion control](https://github.com/google/bbr) 。
 - 预装并启用[Input Remapper](https://github.com/sezanzeb/input-remapper) <sub><sup>(在Deck变体上默认禁用（或可用），可运行 `ujust _restore-input-remapper`以启用)。</sup></sub>
 - Bazzite Portal 提供了一个安装应用程序和调整系统的简单方式，包括安装 [LACT](https://github.com/ilya-zlobintsev/LACT) 和 [GreenWithEnvy](https://gitlab.com/leinardi/gwe)。
-- 预装了[Waydroid](https://waydro.id/) 用于运行Android应用程序。阅读这篇[快速指南](https://universal-blue.discourse.group/docs?topic=32)对其进行设置。
 - 使用 [Flatseal](https://github.com/tchx84/Flatseal)，[Warehouse](https://github.com/flattool/warehouse)，和[Gear Lever](https://github.com/mijorus/gearlever)管理应用程序。
 - [OpenRGB](https://gitlab.com/CalcProgrammer1/OpenRGB) i2c-piix4 和 i2c-nct6775驱动程序用于控制某些主板上的RGB装置。
 - 内置了[OpenRazer](https://openrazer.github.io)驱动程序，在Bazzite Portal中选择安装OpenRazer或者在终端运行`ujust install-openrazer`来启用它。
@@ -233,7 +232,6 @@ Bazzite带来最新的Linux内核，默认启用的SELinux为安全启动提供�
 ![KDE Vapor Theme](/repo_content/desktop1.png?raw=true "KDE Vapor Theme")
 ![KDE VGUI2 Theme](/repo_content/desktop2.png?raw=true "KDE VGUI2 Theme")
 ![Steam Gaming Mode](/repo_content/gamemode.png?raw=true "Steam Gaming Mode")
-![Waydroid](/repo_content/waydroid.png?raw=true "Waydroid")
 ![Distrobox Terminals](/repo_content/distrobox.png?raw=true "Distrobox Terminals")
 ![GNOME](/repo_content/gnome1.png?raw=true "GNOME")
 ![GNOME](/repo_content/gnome2.png?raw=true "GNOME")

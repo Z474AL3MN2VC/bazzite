@@ -61,7 +61,6 @@ Bazzite, [ublue-os/main](https://github.com/ublue-os/main) kullanılarak ve [Fed
 - HDMI CEC desteği.
 - [Input Remapper](https://github.com/sezanzeb/input-remapper) önceden kurulu ve etkin. <sub><sup>(Deck varyantında kullanılabilir ancak varsayılan olarak devre dışıdır, `ujust restore-input-remapper` ile etkinleştirilebilir)</sup></sub>
 - [Bazzite Portal](https://github.com/ublue-os/yafti-gtk) çok sayıda uygulamayı kurmanın (ve ayarlamalar dahil olmak üzere, [LACT](https://github.com/ilya-zlobintsev/LACT) ve IDE'leri Brew üzerinden kurma dahil olmak üzere) kolay bir yolunu sağlar. Ayrıca, sistemi güncelleme, rebase etme ve hatta sistem imajını varsayılan ayarlara sıfırlama için kolay düğmeler sağlar.
-- [Waydroid](https://waydro.id/) Android uygulamalarını çalıştırmak için önceden kurulu. Bu [hızlı kılavuzu](https://docs.bazzite.gg/Installing_and_Managing_Software/Waydroid_Setup_Guide/) ile kurun.
 - [Flatseal](https://github.com/tchx84/Flatseal), [Warehouse](https://github.com/flattool/warehouse) ve [Gear Lever](https://github.com/mijorus/gearlever) kullanarak uygulamaları yönetin.
 - [OpenRazer](https://openrazer.github.io) sürücüleri yerleşik olarak, Bazzite Portal'da OpenRazer'ı seçin veya kullanmaya başlamak için terminal'de `ujust install-openrazer` komutunu çalıştırın.
 - [OpenTabletDriver](https://opentabletdriver.net/) udev kuralları yerleşik olarak, tam yazılım paketi Bazzite Portal üzerinden veya terminal'de `ujust install-opentabletdriver` komutunu çalıştırarak kurulabilir.
@@ -203,7 +202,6 @@ Bazzite'yi diğer Linux tabanlı işletim sistemlerinden ayıran şey hakkında 
 ![KDE Vapor Teması](/repo_content/desktop1.png?raw=true "KDE Vapor Teması")
 ![KDE VGUI2 Teması](/repo_content/desktop2.png?raw=true "KDE VGUI2 Teması")
 ![Steam Gaming Mode](/repo_content/gamemode.png?raw=true "Steam Gaming Mode")
-![Waydroid](/repo_content/waydroid.png?raw=true "Waydroid")
 ![Distrobox Terminal'leri](/repo_content/distrobox.png?raw=true "Distrobox Terminal'leri")
 ![GNOME](/repo_content/gnome1.png?raw=true "GNOME")
 ![GNOME](/repo_content/gnome2.png?raw=true "GNOME")

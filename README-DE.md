@@ -69,7 +69,6 @@ Bazzite basiert auf [ublue-os/main](https://github.com/ublue-os/main) und [ublue
 - Unterstützung für HDMI CEC über [libCEC](https://libcec.pulse-eight.com/).
 - Verwendet standardmäßig [Google's BBR TCP congestion control](https://github.com/google/bbr).
 - [Input Remapper](https://github.com/sezanzeb/input-remapper) vorinstalliert und aktiviert. <sub><sup>(Verfügbar, aber standardmäßig deaktiviert auf der Deck-Variante, kann mit `ujust restore-input-remapper` aktiviert werden)</sup></sub>
-- [Waydroid](https://waydro.id/) vorinstalliert für die Ausführung von Android-Apps. Richte es mit dieser [Kurzanleitung (Englisch)](https://docs.bazzite.gg/Installing_and_Managing_Software/Waydroid_Setup_Guide/) ein.
 - Verwalte Anwendungen mit [Flatseal](https://github.com/tchx84/Flatseal), [Warehouse](https://github.com/flattool/warehouse) und [Gear Lever](https://github.com/mijorus/gearlever).
 - [OpenRGB](https://gitlab.com/CalcProgrammer1/OpenRGB) i2c-piix4- und i2c-nct6775-Treiber zur Steuerung von RGB auf bestimmten Motherboards.
 - [OpenRazer](https://openrazer.github.io)-Treiber integriert. Führe `ujust install-openrazer` in einem Terminal aus, um es zu verwenden.
@@ -226,7 +225,6 @@ Lese die [FAQ](https://docs.bazzite.gg/General/FAQ/) für Details dazu, was Bazz
 ![KDE Vapor Theme](/repo_content/desktop1.png?raw=true "KDE Vapor Theme")
 ![KDE VGUI2 Theme](/repo_content/desktop2.png?raw=true "KDE VGUI2 Theme")
 ![Steam Gaming Mode](/repo_content/gamemode.png?raw=true "Steam Gaming Mode")
-![Waydroid](/repo_content/waydroid.png?raw=true "Waydroid")
 ![Distrobox Terminals](/repo_content/distrobox.png?raw=true "Distrobox Terminals")
 ![GNOME](/repo_content/gnome1.png?raw=true "GNOME")
 ![GNOME](/repo_content/gnome2.png?raw=true "GNOME")

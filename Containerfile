@@ -114,7 +114,7 @@ RUN --mount=type=cache,dst=/var/cache \
         dnf5 -y config-manager setopt copr:copr.fedorainfracloud.org:${copr////:}.priority=98 ;\
     done && unset -v copr && \
     dnf5 -y install --nogpgcheck --repofrompath 'terra,https://repos.fyralabs.com/terra$releasever' terra-release{,-extras,-mesa} && \
-    dnf5 -y config-manager addrepo --overwrite --from-repofile=https://pkgs.tailscale.com/stable/fedora/tailscale.repo && \
+    dnf5 -y config-manager addrepo --overwrite --from-repofile=https://brave-browser-rpm-release.s3.brave.com/brave-browser.repo && \
     sed -i 's@enabled=0@enabled=1@g' /etc/yum.repos.d/negativo17-fedora-multimedia.repo && \
     dnf5 -y config-manager setopt "*terra*".priority=1 "*terra*".exclude="nerd-fonts scx-tools scx-scheds python3-protobuf zlib-devel uupd" && \
     dnf5 -y config-manager setopt "terra-mesa".enabled=false && \
@@ -237,7 +237,6 @@ RUN --mount=type=cache,dst=/var/cache \
         ladspa-caps-plugins \
         pipewire-module-filter-chain-sofa \
         python3-icoextract \
-        tailscale \
         webapp-manager \
         btop \
         amdsmi \
@@ -481,7 +480,6 @@ RUN --mount=type=cache,dst=/var/cache \
     sed -i 's/stage/none/g' /etc/rpm-ostreed.conf && \
     for repo in \
         fedora-cisco-openh264 \
-        tailscale \
         _copr_ublue-os-akmods \
         terra \
         terra-extras \
@@ -517,7 +515,6 @@ RUN --mount=type=cache,dst=/var/cache \
     systemctl enable incus-workaround.service && \
     systemctl enable bazzite-hardware-setup.service && \
     systemctl enable bazzite-iwd-migration.service && \
-    systemctl disable tailscaled.service && \
     systemctl enable dev-hugepages1G.mount && \
     systemctl enable ds-inhibit.service && \
     systemctl --global enable bazzite-user-setup.service && \

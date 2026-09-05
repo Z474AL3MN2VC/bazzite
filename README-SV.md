@@ -47,7 +47,6 @@ Bazzite bygger på [ublue-os/main](https://github.com/ublue-os/main) och [Fedora
 - Stöd för HDMI CEC.
 - [Input Remapper](https://github.com/sezanzeb/input-remapper) är förinstallerat och aktiverat. <sub><sup>(Finns men är avstängt som standard i Deck-varianten; aktivera med `ujust restore-input-remapper`.)</sup></sub>
 - [Bazzite Portal](https://github.com/ublue-os/yafti-gtk) gör det enkelt att installera många program och justeringar, däribland [LACT](https://github.com/ilya-zlobintsev/LACT) och IDE:er via Brew. Den har också knappar för att uppdatera, byta basavbildning och återställa systemavbildningen till standardvärden.
-- [Waydroid](https://waydro.id/) är förinstallerat för Android-appar. Konfigurera det med denna [snabbguide](https://docs.bazzite.gg/Installing_and_Managing_Software/Waydroid_Setup_Guide/).
 - Hantera program med [Flatseal](https://github.com/tchx84/Flatseal), [Warehouse](https://github.com/flattool/warehouse) och [Gear Lever](https://github.com/mijorus/gearlever).
 - [OpenRazer](https://openrazer.github.io)-drivrutiner ingår. Välj OpenRazer i Bazzite Portal eller kör `ujust install-openrazer` i terminalen.
 - [OpenTabletDriver](https://opentabletdriver.net/)-regler för udev ingår; hela programpaketet installeras från Bazzite Portal eller med `ujust install-opentabletdriver`.
@@ -180,7 +179,6 @@ Läs [FAQ](https://docs.bazzite.gg/General/FAQ/) för information om vad som ski
 ![KDE Vapor Theme](/repo_content/desktop1.png?raw=true "KDE Vapor Theme")
 ![KDE VGUI2 Theme](/repo_content/desktop2.png?raw=true "KDE VGUI2 Theme")
 ![Steam-spelläge](/repo_content/gamemode.png?raw=true "Steam-spelläge")
-![Waydroid](/repo_content/waydroid.png?raw=true "Waydroid")
 ![Distrobox-terminaler](/repo_content/distrobox.png?raw=true "Distrobox-terminaler")
 ![GNOME](/repo_content/gnome1.png?raw=true "GNOME")
 ![GNOME](/repo_content/gnome2.png?raw=true "GNOME")
