@@ -289,18 +289,6 @@ RUN --mount=type=cache,dst=/var/cache \
         bazzite-portal \
         kernel-tools \
         ls-iommu && \
-    dnf5 -y install --allowerasing \
-        bat \
-        brave-origin \
-        fd-find \
-        gh \
-        ghostty \
-        lsd \
-        opencode \
-        ripgrep \
-        yazi \
-        yt-dlp \
-        zoxide && \
     dnf5 -y swap \
         --repo terra \
             switcheroo-control cardwire && \
@@ -317,6 +305,26 @@ RUN --mount=type=cache,dst=/var/cache \
     setfattr -n user.component -v "extest" /usr/lib/extest/libextest.so && \
     mkdir -p /etc/xdg/autostart && \
     sed -i 's/ --xdg-runtime=\\"${XDG_RUNTIME_DIR}\\"//g' /usr/bin/btrfs-assistant-launcher && \
+    /ctx/cleanup
+
+# Install custom packages.
+RUN --mount=type=cache,dst=/var/cache \
+    --mount=type=cache,dst=/var/log \
+    --mount=type=bind,from=ctx,source=/,target=/ctx \
+    --mount=type=tmpfs,dst=/tmp \
+    --mount=type=secret,id=GITHUB_TOKEN \
+    dnf5 -y install \
+        bat \
+        brave-origin \
+        fd-find \
+        gh \
+        ghostty \
+        lsd \
+        opencode \
+        ripgrep \
+        yazi \
+        yt-dlp \
+        zoxide && \
     /ctx/cleanup
 
 # Install Steam & Lutris, plus supporting packages
