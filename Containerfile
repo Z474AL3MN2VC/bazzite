@@ -313,6 +313,7 @@ RUN --mount=type=cache,dst=/var/cache \
     --mount=type=bind,from=ctx,source=/,target=/ctx \
     --mount=type=tmpfs,dst=/tmp \
     --mount=type=secret,id=GITHUB_TOKEN \
+    rm -rf /opt/brave.com/ || true && \
     dnf5 -y install \
         bat \
         brave-origin \
