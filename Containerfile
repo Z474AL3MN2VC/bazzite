@@ -489,8 +489,6 @@ RUN --mount=type=cache,dst=/var/cache \
     for repo in \
         fedora-cisco-openh264 \
         _copr_ublue-os-akmods \
-        gh-cli \
-        brave-browser \
         terra \
         terra-extras \
         negativo17-fedora-multimedia; \
