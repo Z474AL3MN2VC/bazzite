@@ -114,8 +114,8 @@ RUN --mount=type=cache,dst=/var/cache \
         dnf5 -y config-manager setopt copr:copr.fedorainfracloud.org:${copr////:}.priority=98 ;\
     done && unset -v copr && \
     dnf5 -y install --nogpgcheck --repofrompath 'terra,https://repos.fyralabs.com/terra$releasever' terra-release{,-extras,-mesa} && \
-    dnf5 -y config-manager addrepo --overwrite --allowerasing --from-repofile='https://cli.github.com/packages/rpm/gh-cli.repo' && \
-    dnf5 -y config-manager addrepo --overwrite  --allowerasing --from-repofile='https://brave-browser-rpm-release.s3.brave.com/brave-browser.repo' && \
+    dnf5 -y config-manager addrepo --overwrite --from-repofile=https://cli.github.com/packages/rpm/gh-cli.repo && \
+    dnf5 -y config-manager addrepo --overwrite --from-repofile=https://brave-browser-rpm-release.s3.brave.com/brave-browser.repo && \
     sed -i 's@enabled=0@enabled=1@g' /etc/yum.repos.d/negativo17-fedora-multimedia.repo && \
     dnf5 -y config-manager setopt "*terra*".priority=1 "*terra*".exclude="nerd-fonts scx-tools scx-scheds python3-protobuf zlib-devel uupd" && \
     dnf5 -y config-manager setopt "terra-mesa".enabled=false && \
